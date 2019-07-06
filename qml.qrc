@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file alias="ICONS_MUSIC">music.png</file>
+    </qresource>
+</RCC>
