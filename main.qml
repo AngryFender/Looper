@@ -88,7 +88,7 @@ Window {
         }
     }
 
-    ColumnLayout{
+    Column{
         id:columnWindow
         anchors.fill: parent
         spacing:0
