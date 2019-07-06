@@ -14,7 +14,7 @@ Window {
     width   : 640
     height  : 580
     color   : "white"
-    title   : qsTr("Loop")
+    title   : qsTr("Looper")
 
 
     Audio{
@@ -321,6 +321,8 @@ Window {
                 }
                 text:"|>"
                 checkable: true
+
+
                 anchors.horizontalCenter: parent.horizontalCenter
                 onClicked: {
                     if(checked)

@@ -9,6 +9,7 @@ int main(int argc, char *argv[])
     QApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
+    app.setWindowIcon(QIcon(":/ICONS_LOOP"));
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
     engine.addImageProvider(QLatin1String("iconProvider"), new IconProvider());
     if (engine.rootObjects().isEmpty())

@@ -2,5 +2,6 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file alias="ICONS_MUSIC">music.png</file>
+        <file alias="ICONS_LOOP">loop.png</file>
     </qresource>
 </RCC>
